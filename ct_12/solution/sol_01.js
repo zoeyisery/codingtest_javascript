@@ -1,5 +1,4 @@
 function solution(id_pw, db) {
-  var answer = "";
   const [inputId, inputPw] = id_pw;
 
   for (const [dbId, dbPw] of db) {

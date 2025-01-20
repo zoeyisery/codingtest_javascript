@@ -3,7 +3,6 @@ function solution(n, numlist) {
   for (num of numlist) {
     if (num % n === 0) answer.push(num);
   }
-  console.log(answer);
   return answer;
 }
 

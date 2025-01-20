@@ -27,3 +27,9 @@ function solution(dots) {
   var answer = 0;
   return answer;
 }
+
+/*
+1. 2개씩 묶기
+2. 기울기 check  -> 2개 반복
++ 3. 이전 조합 제외
+*/

@@ -31,3 +31,5 @@ function solution(n) {
 }
 
 solution(10);
+
+//못 풀었음

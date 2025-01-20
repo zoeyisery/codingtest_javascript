@@ -8,12 +8,7 @@ function solution(n) {
     //if (fakeN % 3 === 0) fakeN++;
 
     //if (fakeN % 10 === 3) fakeN++;
-
-    while (fakeCount(fakeN)) {
-      _n++;
-    }
-
-    console.log("count : fakeN", count, fakeN);
+    while (fakeCount()) console.log("count : fakeN", count, fakeN);
     if (count === n) break;
   }
   console.log(fakeN);

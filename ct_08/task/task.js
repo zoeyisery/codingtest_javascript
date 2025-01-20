@@ -11,8 +11,3 @@ n	result
 10	5
 15	8
 */
-
-function solution(n) {
-  var answer = 0;
-  return answer;
-}
