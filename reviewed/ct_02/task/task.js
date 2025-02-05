@@ -15,6 +15,5 @@ my_string	k	result
 
 function solution(my_string, k) {
   var answer = "";
-
   return answer;
 }

@@ -8,20 +8,13 @@ function solution(num_list) {
   if (list_Length <= 10) {
     answer = 1;
     num_list.forEach((element) => {
-      //console.log(element);
       answer *= element;
     });
   } else {
     num_list.forEach((element) => {
-      //console.log(element);
       answer += element;
     });
   }
-  //console.log("answer=", answer);
 
   return answer;
 }
-
-//let test = [3, 4, 5, 6, 7];
-
-//solution(test);
