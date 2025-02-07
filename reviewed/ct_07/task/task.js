@@ -13,6 +13,7 @@ n	result
 1	1
 15	3
 */
+
 function solution(n) {
   var answer = 0;
   return answer;
