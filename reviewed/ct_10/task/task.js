@@ -19,8 +19,8 @@ num_list	n	result
 [100, 95, 2, 4, 5, 6, 18, 33, 948]	3	[[100, 95, 2], [4, 5, 6], [18, 33, 948]]
 
 */
+
 function solution(num_list, n) {
   var answer = [[]];
-
   return answer;
 }
