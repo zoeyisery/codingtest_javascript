@@ -1,5 +1,4 @@
 function solution(dots) {
-  //const fstDots = dots.splice(0, 1);
   const [fstDots] = dots.splice(0, 1);
 
   for (let i = 0; i < dots.length; i++) {
@@ -8,13 +7,8 @@ function solution(dots) {
 
     dot.push(fstDots);
 
-    console.log(fstDots);
-    console.log(dot);
-    console.log(adot);
-
     if (slope(dot) === slope(adot)) return 1;
   }
-
   return 0;
 }
 
