@@ -29,6 +29,7 @@ lines	result
 두 번째와 세 번째 선분 [3, 9] 구간에서 겹칩니다.
 따라서 [1, 9] 구간에 두 개 이상의 선분이 겹쳐있으므로, 8을 return 합니다.
 */
+
 function solution(lines) {
   var answer = 0;
   return answer;
