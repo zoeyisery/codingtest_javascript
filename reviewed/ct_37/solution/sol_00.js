@@ -8,8 +8,3 @@ function solution(A, B) {
   }
   return -1;
 }
-
-console.log(solution("hello", "ohell"));
-console.log(solution("apple", "elppa"));
-console.log(solution("atat", "tata"));
-console.log(solution("abc", "abc"));
